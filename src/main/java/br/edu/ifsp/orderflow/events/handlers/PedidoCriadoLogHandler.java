@@ -9,7 +9,7 @@ public class PedidoCriadoLogHandler implements IEventHandler<PedidoCriado> {
     public void handle(PedidoCriado event) {
 
         System.out.println(
-            "[Log] novo pedido " + event.pedidoId() + " em" + event.ocorridoEm()
+            "[Log] novo pedido " + event.pedidoId() + " em " + event.ocorridoEm()
         );
     }
 
